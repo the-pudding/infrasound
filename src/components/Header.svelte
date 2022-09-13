@@ -9,6 +9,11 @@
 </header>
 
 <style>
+	header {
+		position: absolute;
+		width: 100%;
+		z-index: 1000;
+	}
 	.wordmark {
 		max-width: 10em;
 		margin: 0 auto;
@@ -26,6 +31,6 @@
 	}
 
 	:global(.wordmark svg path) {
-		fill: currentColor;
+		fill: var(--color-white);
 	}
 </style>

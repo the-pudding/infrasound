@@ -8,6 +8,5 @@
 	// const data = getContext("data");
 </script>
 
-<WIP />
 <Demo />
 <!-- <Footer /> -->
